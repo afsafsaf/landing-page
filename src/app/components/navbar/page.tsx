@@ -1,7 +1,5 @@
-import { Button } from "@nextui-org/button";
-import { NavbarBrand, NavbarContent, NavbarItem } from "@nextui-org/react";
 import Image from "next/image";
-import Link from "next/link";
+
 import React from "react";
 
 const Navbar = () => {
@@ -34,7 +32,7 @@ const Navbar = () => {
 
       <div className="container mx-auto ">
         <div className=" ">
-          <div className=" md:h-[10px] h-[100px] ">
+          <div className=" md:h-[100px] h-[100px]  md:mx-auto mx-2 ">
             <Image
               src="/working.jpg"
               alt="background.jpg"

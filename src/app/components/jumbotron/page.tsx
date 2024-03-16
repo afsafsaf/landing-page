@@ -114,7 +114,7 @@ const Jumbotron = () => {
             Hai, I'm Abdul Faishal Simatupang
           </p>
           <br />
-          <p className="absolute top-40 md:font-medium md:text-xl md:mt-16 mt-16 ">
+          <p className="absolute top-40 md:font-medium md:text-xl md:mt-16 mt-14 ">
             FULL STACK WEB DEVELOPER
           </p>
           <br />
@@ -138,8 +138,17 @@ const Jumbotron = () => {
             height={100}
             width={100}
             quality={100}
+            useMap="#profile"
             className="rounded-full md:relative md:w-[140px] md:h-[140px] w-10 h-10 absolute   top-3 right-1"
           ></Image>
+          <map name="profile">
+            <area
+              target="_blank"
+              coords="0,0,82,126"
+              href="/foto.jpeg"
+              alt="foto"
+            />
+          </map>
         </div>
       </div>
     </>

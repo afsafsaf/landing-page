@@ -5,7 +5,7 @@ import React from "react";
 const Education = () => {
   return (
     <>
-      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 sm:mt-1 mt-10 rounded-xl">
+      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 md:mt-10 mt-10 rounded-xl">
         <Carousel leftControl="" rightControl="">
           <div className="card w-96 bg-base-100 shadow-xl rounded-xl image-full">
             <figure>

@@ -1,8 +1,7 @@
-import * as React from "react";
-import { NextUIProvider } from "@nextui-org/system";
-import RootLayout from "./layout";
+import React from "react";
 
-export default function Home() {
-  return;
-  <></>;
-}
+const pages = () => {
+  return <div></div>;
+};
+
+export default pages;
