@@ -114,7 +114,7 @@ const Jumbotron = () => {
             Hai, I'm Abdul Faishal Simatupang
           </p>
           <br />
-          <p className="absolute top-40 md:font-medium md:text-xl md:mt-16 mt-16   ">
+          <p className="absolute top-40 md:font-medium md:text-xl md:mt-16 mt-16 ">
             FULL STACK WEB DEVELOPER
           </p>
           <br />

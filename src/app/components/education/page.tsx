@@ -175,7 +175,7 @@ const Education = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title text-center mx-auto">
-                <span className="text-cyan-500">My</span>{" "}
+                <span className="text-cyan-600">My</span>{" "}
                 <span className="text-blue-700">Experience</span>
               </h2>
               <p className="text-justify">
