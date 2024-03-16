@@ -1,9 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { BsTelephoneFill } from "react-icons/bs";
-import { IoLocation, IoLogoJavascript } from "react-icons/io5";
-import { MdEmail } from "react-icons/md";
 
 const Jumbotron = () => {
   return (
@@ -120,13 +117,31 @@ const Jumbotron = () => {
           <br />
           <div className=" md:ring-0 ring-2 ring-amber-800 hover:ring-stone-500 ">
             <p className="flex sm:font-semibold font-light md:text-base text-xs sm:mt-14 mt-20 ">
-              <MdEmail /> abdulfaishal111@gmail.com
+              <Image
+                src="/mails.png"
+                alt="mail.png"
+                width={30}
+                height={30}
+              ></Image>{" "}
+              abdulfaishal111@gmail.com
             </p>
             <p className="flex sm:font-semibold font-light md:text-base text-xs ">
-              <BsTelephoneFill /> (+62) 82294922252
+              <Image
+                src="/hp.png"
+                alt="phone.png"
+                width={30}
+                height={30}
+              ></Image>{" "}
+              (+62) 82294922252
             </p>
             <p className="flex sm:font-semibold font-light md:text-base text-xs ">
-              <IoLocation /> Jalan Mapilindo No.41c Medan
+              <Image
+                src="/locations.png"
+                alt="location.png"
+                width={30}
+                height={30}
+              ></Image>{" "}
+              Jalan Mapilindo No.41c Medan
             </p>
           </div>
         </div>
