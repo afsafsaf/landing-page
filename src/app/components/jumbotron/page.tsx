@@ -108,18 +108,18 @@ const Jumbotron = () => {
         </div>
       </div>
 
-      <div className="flex sm:justify-evenly sm:my-20 sm:mx-5 md:mx-5 lg:mx-5 xl:mx-5">
+      <div className="flex sm:justify-evenly sm:my-14 sm:mx-5 md:mx-5 lg:mx-5 xl:mx-5">
         <div className="sm:mr-96 ml-5">
-          <p className="absolute top-32 font-bold text-2xl sm:mt-10  ">
+          <p className="absolute top-32 font-bold text-2xl md:mt-10 mb-1  ">
             Hai, I'm Abdul Faishal Simatupang
           </p>
           <br />
-          <p className="absolute top-40 md:font-medium md:text-xl md:mt-16 mt-14 ">
+          <p className="absolute top-40 md:font-medium md:text-xl md:mt-16 mt-10 ">
             FULL STACK WEB DEVELOPER
           </p>
           <br />
           <div className=" md:ring-0 ring-2 ring-amber-800 hover:ring-stone-500 ">
-            <p className="flex sm:font-semibold font-light md:text-base text-xs sm:mt-20 mt-20 ">
+            <p className="flex sm:font-semibold font-light md:text-base text-xs sm:mt-14 mt-20 ">
               <MdEmail /> abdulfaishal111@gmail.com
             </p>
             <p className="flex sm:font-semibold font-light md:text-base text-xs ">
